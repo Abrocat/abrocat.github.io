@@ -16,3 +16,15 @@ function openTab(event, tabName){
     event.currentTarget.className += " active";
 
 }
+
+function screenPos() {
+    var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
+
+    if(scrollTop < 100) {
+        document.getElementById("navbar").style.opacity = scrollTop/100;
+    }
+    else{
+        
+        document.getElementById("navbar").style.opacity = 1;
+    }     
+}

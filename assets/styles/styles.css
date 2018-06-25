@@ -1,13 +1,36 @@
 * {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 body, html {
     height: 100%;
 }
 
+#navItembar {
+    top: 0;
+    position: fixed;
+    padding-top: 15px;
+}
+.navItem {
+    top: 0;
+    display: inline;
+
+    padding: 30px;
+}
+
+#navbar {
+overflow: hidden;
+
+background-color: white;
+position: fixed;
+top: 1;
+height: 50px;
+width: 100%;
+}
+
 .parallax {
-    background-image: url(https://free4kwallpaper.com/wp-content/uploads/2016/02/Best-4K-London-Wallpaper.jpg);
+    background-image: url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&h=350);
     height: 100%;
 
     background-attachment: fixed;
