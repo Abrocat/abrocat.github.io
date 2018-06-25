@@ -19,10 +19,23 @@ body, html {
     padding: 30px;
 }
 
+a {
+    color: black;
+    text-decoration-line: none;
+}
+a:hover {
+    background: #303238;
+}
+
+a:visited {
+    color: black;
+}
+
 #navbar {
 overflow: hidden;
 
 background-color: white;
+opacity: 0;
 position: fixed;
 top: 1;
 height: 50px;
@@ -30,7 +43,7 @@ width: 100%;
 }
 
 .parallax {
-    background-image: url(https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&h=350);
+    background-image: url(https://images4.alphacoders.com/289/thumb-1920-289496.jpg);
     height: 100%;
 
     background-attachment: fixed;
