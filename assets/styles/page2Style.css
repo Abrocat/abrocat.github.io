@@ -1,0 +1,11 @@
+.mediaItem2 {
+    text-align: left;
+    display: block;
+}
+
+#bigInput {
+    height: 300px;
+    width: 500px;
+    text-shadow: 50px;
+    color: red;
+}

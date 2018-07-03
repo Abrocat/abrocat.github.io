@@ -6,11 +6,11 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
     <script src="assets/scripts/core.js"></script>
-
+    <script src="assets/scripts/riotAPI.js"></script>
 </head>
 
 <body onscroll="screenPos()">
-
+    
     <div id="navbar"></div>
 
     <div id="navItembar">
@@ -20,22 +20,15 @@
         <a href="page4.html" class="navItem">Page 3</a>
     </div>
 
-    <div class="parallax"></div>
+    <div class="parallax" ></div>
 
-
-    <div class="mediaItem2">
-        <button onclick="populateTable()">Populate table</button>
-        <table id="myTable">
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-            </tr>
-        </table>
+    <div class="mediaItem">
+        <button onclick="testRequest()">Test http request</button> 
+        <p id="outputParagraph"></p>
+        
     </div>
 
-    <script>
-        setup()
-    </script>
+    <script>setup()</script>
 </body>
 
 </html>

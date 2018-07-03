@@ -28,3 +28,22 @@ function screenPos() {
         document.getElementById("navbar").style.opacity = 1;
     }     
 }
+
+function setup() {
+    var barHeight = document.getElementById("navItembar").style.height;
+    document.getElementById("navbar").style.height = barHeight;
+}
+
+
+function populateTable() {
+    var myTable = document.getElementById("myTable");
+
+
+    for(var i = 1; i <1000;i++) {
+        var newRow = myTable.insertRow();
+        var newCell1 = newRow.insertCell();
+        var newCell2 = newRow.insertCell();
+        newCell1.innerHTML = "Row " + i;
+        newCell2.innerHTML = "Row " + i;
+    }
+}

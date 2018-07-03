@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-body, html {
+body,
+html {
     height: 100%;
 }
 
@@ -12,19 +13,23 @@ body, html {
     position: fixed;
     padding-top: 15px;
 }
+
 .navItem {
     top: 0;
     display: inline;
-
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a {
     color: black;
     text-decoration-line: none;
 }
+
 a:hover {
-    background: #303238;
+    background: #9b9b9b;
 }
 
 a:visited {
@@ -32,20 +37,18 @@ a:visited {
 }
 
 #navbar {
-overflow: hidden;
-
-background-color: white;
-opacity: 0;
-position: fixed;
-top: 1;
-height: 50px;
-width: 100%;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0;
+    position: fixed;
+    top: 1;
+    height: 50px;
+    width: 100%;
 }
 
 .parallax {
     background-image: url(https://images4.alphacoders.com/289/thumb-1920-289496.jpg);
-    height: 100%;
-
+    height: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +60,35 @@ width: 100%;
     padding-bottom: 200px;
     text-align: center;
     vertical-align: center;
-    background-color: #303238;
+    background-color: white;
     vertical-align: middle;
 }
 
+#myTable {
+    width: 50%;
+    align-self: center;
+    border-collapse: collapse;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myTable th , #myTable td {
+    margin: 0;
+    border: 1px solid;
+    border-color: black;
+    padding: 8px;
+}
+
+#myTable th {
+    background-color: #408fdae1
+}
+
+button {
+    color: white;
+    background-color: rgb(196, 21, 21);
+    border: none;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+}
